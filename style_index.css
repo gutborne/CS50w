@@ -1,0 +1,28 @@
+body {
+  background-color: #202124;
+}
+
+#div1 {
+  flex: 1;
+  display: flexbox;
+}
+
+#search_field {
+  height: 56px;
+  display: flexbox;
+  border-radius: 32px;
+  background: #4d5156;
+  border-color: transparent;
+  position: relative;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  width: 638px;
+  max-width: 584px;
+  color: #e8e8e8;
+}
+
+#div2 {
+  display: block;
+}
+
+/*# sourceMappingURL=style_index.css.map */
