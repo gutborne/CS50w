@@ -2,8 +2,15 @@ body{
     background-color:#202124;
 }
 #div1{
-    flex: 1;
-    display: flexbox;
+    padding: 6px;
+    background-color: red;
+    width: 265px;
+    height: 48px;
+    position: relative;
+    left: 75%;
+}
+#div2{
+    
 }
 #google_logo{
    
@@ -21,6 +28,6 @@ body{
     max-width: 584px;
     color: #e8e8e8;
 }
-#div2{
+#div3{
     display: block;
 }
