@@ -11,6 +11,18 @@ body {
   left: 75%;
 }
 
+#div1_c1 {
+  display: inline;
+  width: 130px;
+  background-color: #4d5156;
+}
+
+#div1_c2 {
+  display: inline;
+  width: 130px;
+  background-color: blue;
+}
+
 #search_field {
   height: 56px;
   display: flexbox;
