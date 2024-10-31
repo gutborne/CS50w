@@ -1,35 +1,58 @@
+#div1_c2, #div1_c1 {
+  display: inline;
+  width: 130px;
+  margin-right: 10px;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  position: relative;
+}
+#div1_c2 a, #div1_c1 a {
+  color: white;
+  text-decoration: none;
+}
+#div1_c2 a:hover, #div1_c1 a:hover {
+  text-decoration: underline;
+}
+
 body {
   background-color: #202124;
 }
 
 #div1 {
   padding: 6px;
-  background-color: red;
   width: 265px;
   height: 48px;
   position: relative;
-  left: 75%;
+  left: 78%;
 }
 
 #div1_c1 {
-  display: inline;
-  width: 130px;
-  background-color: #4d5156;
+  left: 10%;
 }
 
 #div1_c2 {
-  display: inline;
-  width: 130px;
-  background-color: blue;
+  left: 15%;
+}
+
+#div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#div3 {
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #search_field {
+  margin-top: 6px;
   height: 56px;
-  display: flexbox;
   border-radius: 32px;
   background: #4d5156;
   border-color: transparent;
-  position: relative;
   font-size: 14px;
   font-family: Arial, sans-serif;
   width: 638px;
@@ -37,8 +60,16 @@ body {
   color: #e8e8e8;
 }
 
-#div3 {
-  display: block;
+#div3_c1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6px;
+}
+
+#div2-3 {
+  position: relative;
+  top: 90px;
 }
 
 /*# sourceMappingURL=style_index.css.map */
