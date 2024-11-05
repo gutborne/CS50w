@@ -1,0 +1,22 @@
+body {
+  background-color: #202124;
+}
+
+#div1 {
+  display: inline;
+  width: 130px;
+  margin-right: 10px;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  position: relative;
+  left: 92%;
+}
+#div1 a {
+  color: white;
+  text-decoration: none;
+}
+#div1 a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style_google_images.css.map */
