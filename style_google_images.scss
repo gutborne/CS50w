@@ -18,3 +18,23 @@ body{
         text-decoration: underline;
     }
 }
+#div2_3{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    position: relative;
+    top: 20px;
+}
+img{
+    width: 292px;
+    height: 91px;
+}
+span{
+    color: #4487f6;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    width: 51px;
+    position: absolute;
+    right: 475px;
+    top: 70px;     
+}
