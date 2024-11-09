@@ -54,7 +54,6 @@ body{
 }
 #div3{
     height: 145px;
-  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,19 +70,20 @@ body{
     max-width: 584px;
     color: #e8e8e8;
 }
+#search_field:hover{
+    background-color: rgb(107, 103, 103);
+}
 #div3_c1, #div3_c2{
     display: inline;
     position: relative;
 }
 #div3_c1{
-    
     height: 36px;
     margin-right: 6px;
     padding: 0 16px;
 }
 #div3_c2{
     margin-right: 6px;
-   
     height: 36px;
 }
 #submit1{
@@ -97,7 +97,6 @@ body{
     height: 34px;
 }
 #div3_children{
-
     padding-top: 18px;
     position: relative;
     top: 10px;
