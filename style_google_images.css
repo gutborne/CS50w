@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 20px;
+  top: 100px;
 }
 
 img {
@@ -72,6 +72,30 @@ button {
   position: relative;
   left: 25px;
   border: none;
+  outline: none;
+  overflow: hidden;
+}
+
+#searchfield {
+  display: inline-block;
+}
+
+#search_button {
+  display: inline;
+  position: relative;
+  bottom: 11px;
+  right: 55px;
+}
+
+#magnifier {
+  width: 23px;
+  height: 23px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style_google_images.css.map */
