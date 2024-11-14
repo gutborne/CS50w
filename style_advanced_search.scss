@@ -1,0 +1,22 @@
+$std_position: relative;
+body{
+    background-color:#202124;
+    font-family: Arial, sans-serif;
+}
+#div1{
+    width: 90px;
+    height: 48px;
+    margin: 8px;
+    position: $std_position;
+    left: 92%;
+}
+img{
+    height: 24px;
+    width: 74px;
+    display: inline-block;
+    position: $std_position;
+    left: 10%;
+    top: 10px;
+}
+
+
