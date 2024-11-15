@@ -1,4 +1,21 @@
 $std_position: relative;
+$std_height: 42px;
+$std_margin-left: 35px;
+$std_fontsize: 13px;
+$std_colorfont: #969ba1;
+
+%class_divs_input{
+    height: $std_height;
+    label{
+        font-size: $std_fontsize;
+        color: $std_colorfont;
+    }
+    input{
+        color: white;
+        background: #202124;
+        border: 1px solid #5f6368;
+    }
+}
 body{
     background-color:#202124;
     font-family: Arial, sans-serif;
@@ -18,5 +35,34 @@ img{
     left: 10%;
     top: 10px;
 }
-
-
+#div2{
+    p{
+        color:#f28b82;
+        font-size: 20px;
+    }
+    display: block;
+    margin-left: $std_margin-left;
+}
+#div3{
+    margin-left: $std_margin-left;
+}
+#div3_title{
+    span{
+        font-size: 16px;
+        color: #e8eaed;
+    }
+    display: block;
+    height: $std_height;
+}
+#div_input1{
+    @extend %class_divs_input;
+}
+#div_input2{
+    @extend %class_divs_input;
+}
+#div_input3{
+    @extend %class_divs_input;
+}
+#div_input4{
+    @extend %class_divs_input;
+}
