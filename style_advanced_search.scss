@@ -1,8 +1,10 @@
 $std_position: relative;
 $std_height: 42px;
 $std_margin-left: 35px;
+$std_margin-right: 10px;
 $std_fontsize: 13px;
 $std_colorfont: #969ba1;
+
 
 %class_divs_input{
     height: $std_height;
@@ -14,6 +16,14 @@ $std_colorfont: #969ba1;
         color: white;
         background: #202124;
         border: 1px solid #5f6368;
+        height: 25px;
+        width: 40%;
+        border-radius: 1px;
+    }
+    input[type=text]:focus{
+        border: 1px solid rgb(130, 182, 216);
+        outline: none;
+        vertical-align: middle;
     }
 }
 body{
@@ -56,13 +66,37 @@ img{
 }
 #div_input1{
     @extend %class_divs_input;
+    input[type=text]{
+        margin-left: 69px;
+        margin-right:$std_margin-right;
+    }
 }
 #div_input2{
     @extend %class_divs_input;
+    input[type=text]{
+        margin-left: 10px;
+        margin-right:$std_margin-right;
+    }
 }
 #div_input3{
     @extend %class_divs_input;
+    input[type=text]{
+        margin-left: 45px;
+        margin-right:$std_margin-right;
+    }
 }
 #div_input4{
     @extend %class_divs_input;
+    input[type=text]{
+        margin-left: 37px;
+        margin-right:$std_margin-right;
+    }
+}
+#adv_search_button{
+    input[type=submit]{
+        background: #8ab4f8;
+        border-color: #8ab4f8;
+        position: relative;
+        left: 522px;
+    }
 }

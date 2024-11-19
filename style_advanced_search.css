@@ -9,6 +9,14 @@
   color: white;
   background: #202124;
   border: 1px solid #5f6368;
+  height: 25px;
+  width: 40%;
+  border-radius: 1px;
+}
+#div_input4 input[type=text]:focus, #div_input3 input[type=text]:focus, #div_input2 input[type=text]:focus, #div_input1 input[type=text]:focus {
+  border: 1px solid rgb(130, 182, 216);
+  outline: none;
+  vertical-align: middle;
 }
 
 body {
@@ -53,6 +61,33 @@ img {
 #div3_title span {
   font-size: 16px;
   color: #e8eaed;
+}
+
+#div_input1 input[type=text] {
+  margin-left: 69px;
+  margin-right: 10px;
+}
+
+#div_input2 input[type=text] {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#div_input3 input[type=text] {
+  margin-left: 45px;
+  margin-right: 10px;
+}
+
+#div_input4 input[type=text] {
+  margin-left: 37px;
+  margin-right: 10px;
+}
+
+#adv_search_button input[type=submit] {
+  background: #8ab4f8;
+  border-color: #8ab4f8;
+  position: relative;
+  left: 522px;
 }
 
 /*# sourceMappingURL=style_advanced_search.css.map */
