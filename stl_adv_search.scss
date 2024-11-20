@@ -4,6 +4,7 @@ $std_margin-left: 35px;
 $std_margin-right: 10px;
 $std_fontsize: 13px;
 $std_colorfont: #969ba1;
+$std_color_titles_div3: #e8eaed;
 
 
 %class_divs_input{
@@ -55,11 +56,22 @@ img{
 }
 #div3{
     margin-left: $std_margin-left;
+    .highlighted{
+        color:#dadce0;
+        font-size: 11px;
+    }
 }
 #div3_title{
-    span{
+    #title1{
         font-size: 16px;
-        color: #e8eaed;
+        color: $std_color_titles_div3;
+    }
+    #title2{
+        font-size:13px;
+        color: $std_color_titles_div3;
+        font-weight: 700;
+        position: relative;
+        left: 530px;
     }
     display: block;
     height: $std_height;
@@ -98,5 +110,13 @@ img{
         border-color: #8ab4f8;
         position: relative;
         left: 522px;
+        min-width: 120px;
+        margin: 10px 0;
+        color: #202124;
+        height: 28px;
+        width: 94px;
+        font-size: 11px;
+        font-weight: bold;
+        padding: 0 12px;
     }
 }

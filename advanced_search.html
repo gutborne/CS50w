@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
-        <link rel="stylesheet" href="style_advanced_search.css"
+        <link rel="stylesheet" href="stl_adv_search.css"
     </head>
     <body>
         <div id="div1">
@@ -13,28 +13,37 @@
         </div>
         <div id="div3">
             <div id="div3_title">
-                <span>Find pages with...</span>
+                <span id="title1">Find pages with...</span>
+                <span id="title2">To do this in the search box.</span>
             </div>
             <form action="https://www.google.com/search">
                 <div id="div_input1">
                     <label for="all_this_words">all these words:</label>
                     <input id="all_this_words" type="text" name="q">
-                    <label for="all_this_words">Type the important words: doom metal bands</label>
+                    <label for="all_this_words">Type the important words: 
+                        <span class="highlighted">doom metal bands</span>
+                    </label>
                 </div>
                 <div id="div_input2">
                     <label for="exact_word">this exact word or phrase: </label>
                     <input id="exact_word" type="text" name="q">    
-                    <label for="exact_word">Put exact words in quotes: "doom metal"</label>
+                    <label for="exact_word">Put exact words in quotes: 
+                        <span class="highlighted">"doom metal"</span>
+                    </label>
                 </div>
                 <div id="div_input3">
                     <label for="any_of_these_words">any of these words: </label>
                     <input id="any_of_these_words" type="text" name="q">
-                    <label for="any_of_these_words">Type OR between all the words you want: death OR gothic</label>
+                    <label for="any_of_these_words">Type <span class="highlighted">OR</span> between all the words you want: 
+                        <span class="highlighted">death OR gothic</span>
+                    </label>
                 </div>
                 <div id="div_input4">
                     <label for="none_of_these_words">none of these words: </label>
                     <input id="none_of_these_words" type="text" name="q">
-                    <label for="none_of_these_words">Put a minus sign just before words that you don't want: -funeral, -epic</label>    
+                    <label for="none_of_these_words">Put a minus sign just before words that you don't want: 
+                        <span class="highlighted">-funeral, -epic</span>
+                    </label>    
                 </div>
                 <input name="hl" value="en" type="hidden">
                 <input name="source" type="hidden" value="lnt">
